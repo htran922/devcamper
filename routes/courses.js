@@ -1,7 +1,7 @@
 const express = require('express');
 const {
     getCourses
-} = require('../controllers/course');
+} = require('../controllers/courses');
 
 const router = express.Router({ mergeParams:true });
 
